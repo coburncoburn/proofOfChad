@@ -14,7 +14,7 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Chad = await hre.ethers.getContractFactory("Chadliness");
+  const Chad = await hre.ethers.getContractFactory("AlienGigaChad");
   const chad = await Chad.deploy();
 
   await chad.deployed();
